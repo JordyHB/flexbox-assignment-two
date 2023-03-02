@@ -1,1 +1,76 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f2f3d9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #030027;
+    color: white;
+    width: 100vw;
+    padding: 40px;
+}
+
+main {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-evenly;*/
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+    flex-shrink: 0;
+
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.motto {
+    margin: 40px;
+    text-align: center;
+}
+
+.lorem-content {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin: 40px;
+}
+
+.lorem {
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: end;
+    padding: 40px;
+    background-color: #C16E70;
+    flex-basis: 280px;
+    min-height: 350px;
+    text-align: center;
+}
+
+.company-name {
+    text-transform: uppercase;
+}
